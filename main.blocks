@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="eyl~xc]l?gP^`/Cf{;^q">mySprite</variable><variable type="KIND_SpriteKind" id="SxgDm(`$(A1f`iN9!{eQ">Player</variable><variable type="KIND_SpriteKind" id="fTt7LB1(-~[WBJqv5zDk">Projectile</variable><variable type="KIND_SpriteKind" id="_ro~+amX%YfGXcWj!xbM">Food</variable><variable type="KIND_SpriteKind" id="z((c;i%o6g6*Vn@m=G(A">Enemy</variable></variables><block type="pxt-on-start" id="xCs;BV+s57!dep6i]s%G" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="cdz5P=BV@mUb|8?!Bl]7"><field name="VAR" id="eyl~xc]l?gP^`/Cf{;^q">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="4x7Zu(KIpWf6|68[%_Y|"><value name="img"><shadow type="screen_image_picker" id="3}:/tWr-#SKMt(:ssnfI"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="SxgDm(`$(A1f`iN9!{eQ">Player</variable><variable type="KIND_SpriteKind" id="fTt7LB1(-~[WBJqv5zDk">Projectile</variable><variable type="KIND_SpriteKind" id="_ro~+amX%YfGXcWj!xbM">Food</variable><variable type="KIND_SpriteKind" id="z((c;i%o6g6*Vn@m=G(A">Enemy</variable><variable id="eyl~xc]l?gP^`/Cf{;^q">mySprite</variable><variable id="yoaz{O2mwtdDJM[1#P$l">mySprite2</variable></variables><block type="pxt-on-start" id="xCs;BV+s57!dep6i]s%G" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="cdz5P=BV@mUb|8?!Bl]7"><field name="VAR" id="eyl~xc]l?gP^`/Cf{;^q">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="4x7Zu(KIpWf6|68[%_Y|"><value name="img"><shadow type="screen_image_picker" id="3}:/tWr-#SKMt(:ssnfI"><field name="img">img`
 ........................bbbbbbbbbbbbbbbbbbb..................................
 ......................bbb5555555555555555bbbbb...............................
 .....................bb5555555555555555555555bbb......bbc....................
@@ -196,4 +196,21 @@ ddddd77777777777777777777777777777777777ddddd77777777777777777777777777777777777
 7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
 7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
 7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
-`</field><data>{"commentRefs":[],"fieldData":{"img":"iF1xP0+Q?232=C8JCKTr"}}</data></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"iF1xP0+Q?232=C8JCKTr"}}</data></shadow></value><next><block type="variables_set" id="sT-$sEP|oR$ws1B36w9R"><field name="VAR" id="yoaz{O2mwtdDJM[1#P$l">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="d452zyAeS5dhBps%myM+"><value name="img"><shadow type="screen_image_picker" id="wO3f/qbA5aqAQ/,/V{i@"><field name="img">img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 f 5 d 4 c . . 
+. . . . b 5 5 1 f f d d 4 4 4 b 
+. . . . b 5 5 d f b 4 4 4 4 b . 
+. . . b d 5 5 5 5 4 4 4 4 b . . 
+. . b d d 5 5 5 5 5 5 5 5 b . . 
+. b d d d d 5 5 5 5 5 5 5 5 b . 
+b d d d b b b 5 5 5 5 5 5 5 b . 
+c d d b 5 5 d c 5 5 5 5 5 5 b . 
+c b b d 5 d c d 5 5 5 5 5 5 b . 
+. b 5 5 b c d d 5 5 5 5 5 d b . 
+b b c c c d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"wO3f/qbA5aqAQ/,/V{i@"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="]WIVzf[F3Pro$42=!9sA"><field name="MEMBER">Enemy</field></shadow></value></block></value></block></next></block></next></block></next></block></next></block></statement></block></xml>

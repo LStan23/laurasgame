@@ -77,3 +77,4 @@ let mySprite = sprites.create(img`
     ...............................................................ccccc..ccc....
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
+scene.setBackgroundColor(10)

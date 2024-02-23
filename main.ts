@@ -76,6 +76,12 @@ let mySprite = sprites.create(img`
     ...............cc...........................................ccccdddccccdccccc
     ...............................................................ccccc..ccc....
     `, SpriteKind.Player)
+animation.runMovementAnimation(
+mySprite,
+animation.animationPresets(animation.flyToCenter),
+2000,
+true
+)
 controller.moveSprite(mySprite)
 scene.setBackgroundColor(10)
 scene.setBackgroundImage(img`
@@ -218,3 +224,9 @@ let mySprite2 = sprites.create(img`
     b b c c c d d d d 5 5 5 b b . . 
     . . . c c c c c c c c b b . . . 
     `, SpriteKind.Enemy)
+animation.runMovementAnimation(
+mySprite,
+animation.animationPresets(animation.bounceRight),
+2000,
+true
+)

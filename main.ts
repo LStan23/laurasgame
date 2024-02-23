@@ -78,7 +78,7 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 animation.runMovementAnimation(
 mySprite,
-animation.animationPresets(animation.flyToCenter),
+animation.animationPresets(animation.bobbing),
 500,
 true
 )

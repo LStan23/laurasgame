@@ -225,8 +225,8 @@ let mySprite2 = sprites.create(img`
     . . . c c c c c c c c b b . . . 
     `, SpriteKind.Enemy)
 animation.runMovementAnimation(
-mySprite,
-animation.animationPresets(animation.bounceRight),
+mySprite2,
+animation.animationPresets(animation.bobbingLeft),
 2000,
 true
 )
